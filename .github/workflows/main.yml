@@ -1,5 +1,5 @@
 
-name: gs-BUILD
+name: Build All
 on:
   push:
     branches: [master]
@@ -15,6 +15,10 @@ jobs:
       matrix:
         device:
           - panther
+          - X6880
+          - r9s_2100
+          - cacunn
+          - a24
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
