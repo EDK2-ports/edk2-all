@@ -21,9 +21,9 @@
   gQcomTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
   gQcomTokenSpaceGuid.PcdMipiFrameBufferHeight|2400
 
-  gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"Google"
-  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Pixel 6a"
-  gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"bluejay"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"Samsung"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Galaxy A24"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"a24"
 
   # Simple Init
   gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|512
