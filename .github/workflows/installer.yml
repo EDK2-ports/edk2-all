@@ -19,14 +19,12 @@ jobs:
       max-parallel: 8
       matrix:
         device:
-          # sm8150
-          - mh2lm
-          - nabu
-          - cepheus
-          - vayu-huaxing
-          - vayu-tianma
-          # sm8550
-          - fuxi
+         - panther
+          - raven
+           - bluejay
+             - r9s
+             - r9q
+              - r9q2
 
 
     # Steps represent a sequence of tasks that will be executed as part of the job
