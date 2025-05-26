@@ -52,8 +52,8 @@ jobs:
       - name: Download Artifact
         uses: actions/download-artifact@v3
         with:
-          name: my-artifact  # Replace with the name of your artifact
-          path: ./downloads # Replace with the path to download to
+          name: universal 
+          path: ./out/universal
       - name: List downloaded files
         run: ls -r ./downloads # Verify that the artifact was downloaded
 
