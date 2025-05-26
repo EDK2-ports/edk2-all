@@ -55,8 +55,7 @@ jobs:
           name: universal 
           path: ./out/universal
       - name: List downloaded files
-        run: ls -r ./downloads # Verify that the artifact was downloaded
-
+        run: ls -r ./out/universal
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3
